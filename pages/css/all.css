@@ -1,5 +1,11 @@
 html {
-    font-size: 14px;
+    font-size: 8px;
+}
+
+@media (max-width: 480px) { /* for mobile phones */
+    html {
+      font-size: 3px;
+    }
 }
 
 /* Index */
@@ -10,8 +16,8 @@ body {
 }
 
 .sidebar {
-    width: 100px;
-    height: 85vh;
+    width: 12.5rem;
+    height: 96rem;
     margin: 5%;
     position: fixed;
     top: 0;
@@ -29,7 +35,7 @@ body {
 }
 
 .sidebar ul li {
-    margin: 20px 0;
+    margin: 2.5rem 0;
 }
 
 .sidebar ul li a {
@@ -41,8 +47,8 @@ body {
 }
 
 .sidebar ul li a i {
-    font-size: 32px;
-    margin-bottom: 40px;
+    font-size: 4rem;
+    margin-bottom: 5rem;
 }
 
 .sidebar ul li a i:hover {
@@ -55,11 +61,11 @@ body {
 
 .content {
     background-color: #333;
-    margin: 5%;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    height: 85vh;
+    margin: 10rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    width: 160rem;
+    height: 96rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,14 +80,14 @@ body {
 }
 
 .profile-image {
-    width: 37%;
-    height: 105%;
-    margin-left: 100px;
+    width: 60rem;
+    height: 100rem;
+    margin-left: 12.5rem;
 }
 
 .text-content {
-    margin-left: 50px;
-    width: 600px;
+    margin-left: 6.25rem;
+    width: 75rem;
 }
 
 .text-content a {
@@ -90,27 +96,27 @@ body {
 
 .name-text {
     color: white;
-    font-size: 64px;
+    font-size: 8rem;
 }
 
 .name-highlight {
-    margin-top: 10px;
+    margin-top: 1rem;
     color: magenta;
-    font-size: 16px;
+    font-size: 2rem;
 }
 
 .name-bio {
     color: #aaa;
-    font-size: 16px;
+    font-size: 2rem;
 }
 
 .nav-title-text {
-    font-size: 32px;
+    font-size: 4rem;
 }
 
 .nav-text {
     color: white;
-    font-size: 16px;
+    font-size: 2rem;
 }
 
 .nav-text:hover {
@@ -118,18 +124,18 @@ body {
 }
 
 .download-button {
-    margin-top: 40px;
+    margin-top: 5rem;
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 1rem 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: white;
     /* background-color: #007BFF; */
-    border-radius: 5px;
+    border-radius: 0.5rem;
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-right: 20px;
+    margin-right: 2.5rem;
 }
 
 .download-button:hover {
@@ -145,39 +151,40 @@ body {
     background-image: url('/images/edu.png');
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 5%;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 82%;
-    height: 87vh;
+    margin: 10rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    width: 160rem;
+    height: 96rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 2rem;
 }
 
 .edu-inner {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 12.5rem;
 }
 
 .one-image {
-    width: 240px;
-    height: 160px;
-    margin-left: 100px;
+    width: 30rem;
+    height: 20rem;
+    margin-left: 12.5rem;
     border-radius: 50%;
 }
 
 .two-image {
-    width: 240px;
-    height: 160px;
-    margin-left: 50px;
+    width: 30rem;
+    height: 20rem;
+    margin-left: 6rem;
     border-radius: 50%;
 }
 
 .edu-text {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .edu-link {
@@ -190,24 +197,24 @@ body {
 }
 
 .edu-tit {
-    font-size: 24px;
+    font-size: 3rem;
     color: magenta;
-    margin-left: 100px;
+    margin-left: 12.5rem;
 }
 
 .download-button1 {
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 1rem 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: white;
     /* background-color: #aaa; */
-    border-radius: 5px;
+    border-radius: 0.5rem;
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-bottom: 20px;
-    margin-left: 100px;
+    margin-bottom: 2.5rem;
+    margin-left: 12.5rem;
 }
 
 .download-button1:hover {
@@ -219,24 +226,24 @@ body {
 /* Skills Page */
 
 .skill-txt {
-    font-size: 24px;
+    font-size: 3rem;
     color: magenta;
 }
 
 .skilllist {
     list-style-type: none;
-    font-size: 16px;
+    font-size: 2rem;
     color: white;
 }
 
 .tier {
-    font-size: 32px;
+    font-size: 4rem;
     list-style-type: none;
     display: flex;
 }
 
 .skill {
-    padding-left: 50px;
+    padding-left: 6rem;
 }
 
 .skill-t {
@@ -251,12 +258,12 @@ body {
 /* Experience Page */
 
 .main-xp-txt {
-    font-size: 40px;
+    font-size: 5rem;
     margin-left: 10%;
 }
 
 .xp-list {
-    font-size: 24px;
+    font-size: 3rem;
     list-style-type: none;
     display: flex;
 }
@@ -268,8 +275,8 @@ body {
 }
 
 .vline {
-    width: 2px;
-    height: 50vh;
+    width: 0.25rem;
+    height: 56rem;
     background-color: white;
 }
 
@@ -278,45 +285,25 @@ body {
 }
 
 .xp-image {
-    width: 36px;
-    height: 30px;
-    margin-top: 50px;
+    width: 4rem;
+    height: 3.5rem;
+    margin-top: 6rem;
     border-radius: 50%;
 }
 
 .xp-text {
-    font-size: 16px;
+    font-size: 2rem;
 }
 
 .xp-text:hover {
     color: magenta;
 }
 
-.download-button2 {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    /* background-color: #aaa; */
-    border-radius: 5px;
-    text-align: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 40%;
-    margin-bottom: 40%;
-}
-
-.download-button2:hover {
-    background-color: magenta;
-}
-
-
 
 /* Contact Page */
 
 .main-con-txt {
-    font-size: 40px;
+    font-size: 5rem;
     margin-left: 5%;
 }
 
@@ -327,11 +314,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    font-size: 3rem;
 }
 
 .con-text {
-    font-size: 16px;
+    font-size: 2rem;
     color: white;
     list-style-type: none;
     text-decoration: none;
@@ -340,10 +327,3 @@ body {
 .con-text:hover {
     color: magenta;
 }
-
-
-/*
-change main picture
-adjust edu page
-make xp/skills page clickable with more info
-*/
