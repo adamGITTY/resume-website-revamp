@@ -1,5 +1,11 @@
 html {
-    font-size: 14px;
+    font-size: 8px;
+}
+
+@media (max-width: 480px) { /* for mobile phones */
+    html {
+      font-size: 3px;
+    }
 }
 
 body {
@@ -11,12 +17,12 @@ body {
 .content {
     background-color: #333;
     margin: 5%;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    height: 85vh;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
     flex: 1;
-    padding: 20px;
+    width: 160rem;
+    height: 96rem;
+    padding: 2.5rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -25,16 +31,16 @@ body {
 
 .sidebar {
     color: white;
-    padding: 20px;
+    padding: 2.5rem;
     width: 100%;
 }
 
 .sidebar a i {
-    margin-left: 50px;
+    margin-left: 6rem;
     list-style-type: none;
     text-decoration: none;
     color: white;
-    font-size: 32px;
+    font-size: 4rem;
 }
 
 .sidebar a i:hover {
@@ -42,17 +48,17 @@ body {
 }
 
 .sb-image {    
-    width: 36px;
-    height: 30px;
+    width: 4.5rem;
+    height: 3.5rem;
     border-radius: 50%;
-    margin-left: 50px;
+    margin-left: 6rem;
 }
 
 .back {
     list-style-type: none;
     text-decoration: none;
     color: white;
-    font-size: 32px;
+    font-size: 4rem;
 }
 
 .back:hover {
@@ -60,18 +66,18 @@ body {
 }
 
 .main-txt {
-    font-size: 40px;
+    font-size: 5rem;
     margin-top: 5%;
 }
 
 .vline {
-    width: 2px;
-    height: 50vh;
+    width: 0.25rem;
+    height: 56rem;
     background-color: white;
 }
 
 .xp-list {
-    font-size: 32px;
+    font-size: 4rem;
     list-style-type: none;
     display: flex;
 }
@@ -82,14 +88,14 @@ body {
 
 .s-text {
     color: white;
-    font-size: 20px;
+    font-size: 2.5rem;
     margin-top: 25%;
     margin-right: 10%;
 }
 
 .e-text {
     color: white;
-    font-size: 16px;
+    font-size: 2rem;
     margin-top: 5%;
 }
 
@@ -104,6 +110,6 @@ body {
 
 .s-image {
     margin-top: 10%;
-    width: 200px;
-    height: 150px;
+    width: 25rem;
+    height: 20rem;
 }
