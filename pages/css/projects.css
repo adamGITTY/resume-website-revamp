@@ -113,7 +113,14 @@ body {
     text-align: left;
 }
 
+.edu-link {
+    color: white;
+    text-decoration: none;
+}
 
+.edu-link:hover {
+    color: magenta;
+}
 
 @media (max-width: 600px) { /* for mobile phones (portrait) */
     .e-text {
