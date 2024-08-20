@@ -119,3 +119,15 @@ body {
     width: 25rem;
     height: 20rem;
 }
+
+@media (max-width: 600px) {
+    .e-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1080px) {
+    .e-text {
+        font-size: 1.5rem;
+    }
+}
