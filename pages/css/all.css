@@ -291,7 +291,6 @@ body {
 }
 
 .xp-list {
-    margin-left: -15rem;
     font-size: 3rem;
     list-style-type: none;
     display: flex;
@@ -328,6 +327,12 @@ body {
     color: magenta;
 }
 
+@media (max-width: 600px) { /* for mobile phones (portrait) */
+    .xplist {
+        margin-left: -15rem;
+    }
+}
+
 
 /* Contact Page */
 
@@ -355,3 +360,4 @@ body {
 .con-text:hover {
     color: magenta;
 }
+
