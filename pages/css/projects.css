@@ -4,7 +4,13 @@ html {
 
 @media (max-width: 480px) { /* for mobile phones */
     html {
-      font-size: 3px;
+      font-size: 2px;
+    }
+}
+
+@media (max-width: 1080px) { /* for mobile phones */
+    html {
+      font-size: 4px;
     }
 }
 
@@ -16,7 +22,7 @@ body {
 
 .content {
     background-color: #333;
-    margin: 5%;
+    margin: 5rem;
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
     flex: 1;
