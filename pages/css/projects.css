@@ -22,7 +22,7 @@ body {
 
 .content {
     background-color: #333;
-    margin: 5rem;
+    margin: 10rem;
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
     flex: 1;
@@ -89,14 +89,13 @@ body {
 }
 
 .xp-type {
-    margin-right: 10%;
+    margin-right: 10rem;
 }
 
 .s-text {
     color: white;
     font-size: 2.5rem;
     margin-top: 25%;
-    margin-right: 10%;
 }
 
 .e-text {
@@ -114,20 +113,10 @@ body {
     text-align: left;
 }
 
-.s-image {
-    margin-top: 10%;
-    width: 25rem;
-    height: 20rem;
-}
 
-@media (max-width: 600px) {
-    .e-text {
-        font-size: 1.5rem;
-    }
-}
 
-@media (min-width: 601px) and (max-width: 1080px) {
+@media (max-width: 600px) { /* for mobile phones (portrait) */
     .e-text {
-        font-size: 1.5rem;
+        margin-left: -10rem;
     }
 }
