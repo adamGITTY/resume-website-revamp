@@ -2,13 +2,13 @@ html {
     font-size: 8px;
 }
 
-@media (max-width: 480px) { /* for mobile phones */
+@media (max-width: 600px) { /* for mobile phones (portrait) */
     html {
       font-size: 2px;
     }
 }
 
-@media (max-width: 1080px) { /* for mobile phones */
+@media (min-width: 601px) and (max-width: 1080px) { /* for mobile phones (landscape) */
     html {
       font-size: 4px;
     }
@@ -251,6 +251,7 @@ body {
 }
 
 .tier {
+    margin-left: 5rem;
     font-size: 4rem;
     list-style-type: none;
     display: flex;
