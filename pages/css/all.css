@@ -251,7 +251,6 @@ body {
 }
 
 .tier {
-    margin-left: 5rem;
     font-size: 4rem;
     list-style-type: none;
     display: flex;
@@ -323,8 +322,7 @@ body {
 }
 
 .con-type {
-    margin-top: 5%;
-    margin-right: 5%;
+    margin-right: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
